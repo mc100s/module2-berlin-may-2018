@@ -1,19 +1,8 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome Ironhacker</title>
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <h1>Welcome Ironhacker. :)</h1>
-    {{ person.firstName }}
-    {{!-- 
-    {{#if isCityBerlin}}
-      The best city is {{ city }}
-    {{else}}
-      We don't know the best city
-    {{/if}}
-     --}}
-  </body>
-</html>
+<h1>Welcome on IronPets</h1>
+<h2>The list of our pets</h2>
+<ul>
+  {{#each pets }}
+    <li><a href="/pets/{{@index}}">{{this.name}}</a> </li>
+  {{/each}}
+</ul>
+
