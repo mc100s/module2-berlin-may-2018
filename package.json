@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mc100s/module2-berlin-may-2018#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "path": "^0.12.7"
   }
 }
